@@ -22,7 +22,7 @@ public class QuartzConfig {
                 .forJob(jobDetail())
                 .withIdentity("weatherTrigger")
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
-                        .withIntervalInSeconds(10)
+                        .withIntervalInSeconds(30)
                         .repeatForever())
                 .build();
     }

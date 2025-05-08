@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"config", "job", "Quartz_demo2"})
+@ComponentScan(basePackages = {"controller", "service","config", "job", "Quartz_demo2"})
 @MapperScan("mapper")
 public class QuartzDemoApplication {
     public static void main(String[] args) {
