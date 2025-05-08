@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class QuartzConfig {
 
     @Bean
-    public JobDetail weatherJobDetail() {
+    public JobDetail jobDetail() {
         return JobBuilder.newJob(WeatherJob.class)
                 .withIdentity("weatherJob")
                 .storeDurably()
@@ -17,13 +17,13 @@ public class QuartzConfig {
     }
 
     @Bean
-    public Trigger weatherJobTrigger() {
+    public Trigger trigger() {
         return TriggerBuilder.newTrigger()
-                .forJob(weatherJobDetail())
+                .forJob(jobDetail())
                 .withIdentity("weatherTrigger")
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
-                    .withIntervalInSeconds(10)
-                    .repeatForever())
+                        .withIntervalInSeconds(10)
+                        .repeatForever())
                 .build();
     }
 }
