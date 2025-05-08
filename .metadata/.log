@@ -394,3 +394,2244 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:45:38.376
 !MESSAGE [Info]	[certificates] Removed 7 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 09:48:58.709
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.jface 2 0 2025-05-08 09:48:58.715
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-05-08 09:48:58.715
+!MESSAGE A conflict occurred for ALT+CTRL+/:
+Binding(ALT+CTRL+/,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.hippieCompletion,Word Completion,
+		Context insensitive completion,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.hippieCompletion"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,zh,,system)
+Binding(ALT+CTRL+/,
+	ParameterizedCommand(Command(com.microsoft.copilot.eclipse.commands.triggerInlineSuggestion,Trigger Inline Suggestion,
+		,
+		Category(com.microsoft.copilot.eclipse.ui.githubCopilot,GitHub Copilot,null,true),
+		WorkbenchHandlerServiceHandler("com.microsoft.copilot.eclipse.commands.triggerInlineSuggestion"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 09:48:58.723
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:48:59.493
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.290.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:48:59.677
+!MESSAGE [Info]	[certificates] Removed 7 expired certificates
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 09:51:05.540
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 09:51:05.542
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 09:51:05.545
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 09:51:05.547
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 09:51:05.559
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 09:51:05.566
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 09:51:05.920
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 09:51:05.936
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.jface 2 0 2025-05-08 09:51:05.950
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-05-08 09:51:05.950
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:51:06.932
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.290.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:51:07.194
+!MESSAGE [Info]	[certificates] Removed 7 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 09:53:04.497
+!MESSAGE [Info] Language ID not found for extension: properties
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:53:05.549
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 772.2762999999977 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:53:05.550
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [eda08df1-439d-4e9b-9bae-d2fcce55407b] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:53:05.551
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:53:06.454
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 619.5507999999973 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:53:06.456
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [4664f87f-37bd-4015-b829-3df3953fcff8] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:53:06.457
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:31.956
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:31.957
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [cc5ee8c8-d8a9-4afc-9a69-713d9ae8172b] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:31.958
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 297.5216000000364 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:32.453
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:32.454
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [72ff6fcb-4cac-4547-9e2c-ad0e7d6f9a10] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:32.456
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 253.25940000003902 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:32.944
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 195.1412999999593 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:32.951
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:32.952
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e19457ff-9a7e-4e6b-aa74-253f73dbd1a5] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:34.322
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:34.323
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e7578b22-1330-407d-bf35-0a21a462e4a7] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:34.324
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 381.2424000000465 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:41.461
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 158.5389000000432 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:41.462
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [b1a4fd07-e790-4900-91eb-812fdc779888] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:41.463
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:42.920
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 305.530700000003 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:42.921
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:42.922
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [68ee7f3f-e4d3-4f9d-9432-abf0ee5eb460] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:43.302
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 245.32209999999031 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:43.303
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e8e95ca7-bac9-4311-ae21-44633dbb4e09] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:43.303
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:47.938
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 202.52310000004945 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:47.940
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [cc8010d7-0bb2-4c80-a3e2-c82713df3670] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:47.941
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:48.785
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 150.27110000001267 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:48.786
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:48.789
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [a92756d1-b0de-4ef1-8b27-e41e490c37fc] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:52.843
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 177.40259999997215 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:52.844
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [2cea609a-f526-43ba-bfad-d169b467625f] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:52.845
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:53.718
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 164.80970000004163 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:53.720
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [423d47df-8552-4d43-8b45-146d5716d3da] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:56:53.721
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:57:16.954
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 175.67619999998715 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:57:16.954
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [729b6174-15d5-4998-8b47-49725fbf2bff] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:57:16.956
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:57:22.787
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 161.43169999995735 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:57:22.788
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [bcf2119c-e3a3-44b3-af26-009b30db7b89] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 09:57:22.790
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-05-08 10:01:06.647
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3415)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.lambda$1(SemanticHighlightReconcilerStrategy.java:247)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:06.989
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:06.990
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [73dd1ae4-5acf-4af9-936f-82e9c718394f] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:06.992
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 836.6459000000032 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:23.503
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 359.68799999996554 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:23.504
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [fe72f469-e60a-4a68-a9d9-18ffaf48b49e] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:23.505
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:24.016
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 495.58740000007674 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:24.017
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [8b0f3701-c33e-4bf9-9abd-a2c84aa66816] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:01:24.018
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-05-08 10:03:32.260
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3415)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.lambda$1(SemanticHighlightReconcilerStrategy.java:247)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-05-08 10:03:32.316
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:32.362
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 595.0699999999488 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:32.363
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:32.364
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [7229693a-af68-4486-a882-a196b3eb2283] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:34.834
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:34.835
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [45af9592-4fa8-4c61-810b-8d1822a395eb] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:34.836
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 298.25500000000466 ms
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-05-08 10:03:35.031
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3415)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.lambda$1(SemanticHighlightReconcilerStrategy.java:247)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:35.877
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 303.4928999999538 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:35.881
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:35.883
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [424adc26-1b1f-4e6a-9255-6c46370d03d4] model deployment ID: []
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-05-08 10:03:36.096
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3415)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.lambda$1(SemanticHighlightReconcilerStrategy.java:247)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:36.397
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 305.2978000000585 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:36.398
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [d4e37209-45da-442c-b00c-7cf551ef6fb1] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:03:36.398
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-05-08 10:03:36.591
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3415)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.lambda$1(SemanticHighlightReconcilerStrategy.java:247)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-05-08 10:03:37.631
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-05-08 10:03:40.812
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3415)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.lambda$1(SemanticHighlightReconcilerStrategy.java:247)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:04:29.808
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 585.4618000000482 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:04:29.951
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:04:29.952
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [57c38e2e-ea92-4050-8bfd-5af58c4f6b8c] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:04:59.068
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 443.1557999999495 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:04:59.069
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [124444e0-7664-4049-8b39-e492226a47bf] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:04:59.070
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:05:04.154
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 277.3342999999877 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:05:04.156
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [c0756750-d0ed-47bd-acb4-1ca98245b006] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:05:04.156
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:05:05.487
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 256.07300000009127 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:05:05.488
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [cabe2a5e-c954-4951-8d32-562ec9e81947] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:05:05.489
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:06:35.038
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:06:35.039
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:06:35.041
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:06:35.042
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:06:35.048
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:06:35.052
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:47.369
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 657.4109000000171 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:47.372
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:47.372
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [0405b09d-dcf2-46d8-8398-4c5db561badc] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:49.833
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 297.9135000000242 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:49.834
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e283ed8d-f8e8-4f5f-825c-8f47954c9089] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:49.835
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:53.803
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 334.1804000000702 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:53.804
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [da3579a8-51b7-4922-9475-b2e5a7d0a037] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:53.805
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:54.134
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 311.4810999999754 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:54.135
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:07:54.136
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [0abdd755-e21c-4b7b-9551-f4a9b9f5fd06] model deployment ID: []
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:10:28.231
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:10:28.232
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:10:28.234
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:10:28.235
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:10:28.241
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:10:28.244
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:11:26.191
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 805.284500000067 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:11:26.192
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:11:26.192
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [5091a6e5-e0ea-438d-aabe-0e305ee28601] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:36.707
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 1233.4782000000123 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:36.707
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [86e5990b-ffbd-441a-9946-07cdee6f269f] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:36.708
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:40.254
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 336.39240000001155 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:40.255
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:40.256
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [97640fc6-35d2-41f8-bd59-a25e0d789e30] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:48.447
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 444.5582999999169 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:48.448
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [2cbea0dd-33c6-4d4c-9d34-6894a46ff3c4] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:48.449
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:56.590
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:56.591
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [11f53af5-3007-4b12-87ea-e25512c3c253] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:13:56.592
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 480.3721000000369 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:15:34.781
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 289.3851999999024 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:15:34.782
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [ba4f1a91-fbb7-40ac-aa6d-47fd2e0779d1] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:15:34.782
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:16:55.454
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 298.22259999997914 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:16:55.455
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [9b388f29-1b32-41be-94da-60ec7f583b95] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:16:55.456
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:17:40.859
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 356.05300000007264 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:17:40.860
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [b2da3b72-6acf-4038-90e1-c7c8add32cbe] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:17:40.861
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:19:59.196
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:19:59.197
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [28cf1693-e7a4-420a-bcc1-54b6025b2863] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:19:59.197
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 832.0867999999318 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:01.977
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 382.22710000001825 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:01.978
+!MESSAGE [Info]	[ghostText] Filtered out solution matching next line
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:01.978
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [ed3ee44e-6f1b-4c43-a4b4-b818c9867656] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:01.980
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:01.985
+!MESSAGE [Info]	[ghostText] Filtered out solution matching next line
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:02.076
+!MESSAGE [Info]	[ghostText] Filtered out solution matching next line
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:02.233
+!MESSAGE [Info]	[ghostText] Filtered out solution matching next line
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:02.499
+!MESSAGE [Info]	[ghostText] Filtered out solution matching next line
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:03.112
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 336.34499999997206 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:03.113
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [681e3a13-cd71-4752-a373-e4e40b26ab3b] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:20:03.113
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:21:13.672
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:21:13.673
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:21:13.674
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:21:13.675
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:21:13.681
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:21:13.685
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-08 10:21:56.292
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:23:03.229
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 606.3680999998469 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:23:03.232
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [92fa7732-c1fd-4a4a-b646-f6eca97c805b] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:23:03.233
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:25:35.249
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:25:35.252
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:25:35.254
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:25:35.256
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:25:35.269
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:25:35.274
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:08.752
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [a00348c2-20a1-4ffc-a15f-93615c588ef6] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:08.753
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:08.753
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 590.1905999998562 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.090
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 450.82999999960884 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.091
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.092
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [7b448bbf-610c-498f-a5e6-620806245017] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.475
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 372.59989999979734 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.476
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e23cafc2-2a9a-42fa-9155-c91db453f716] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.477
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.842
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 282.74949999991804 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.843
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [41838764-e322-424c-9e3d-18a57af977ba] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:10.844
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:42.818
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 319.00019999966025 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:42.822
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [97d4e2d3-3487-467c-b062-9f7da3323a36] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:42.823
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:43.132
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 303.98400000017136 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:43.134
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:43.135
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [466d7210-9200-4b73-ab08-f230b049654f] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:54.063
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 315.9635999999009 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:54.064
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [08821488-b896-4314-9751-59b1a70e7738] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:27:54.066
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:28:04.272
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 370.11590000009164 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:28:04.273
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [5718a36d-905e-4b74-83fd-6488f5bbdf58] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:28:04.274
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:28:06.127
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 569.8353999997489 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:28:06.128
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e2707ce9-c27f-48b8-b6a2-68476f8d1884] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:28:06.128
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:30:14.383
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:30:14.384
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:30:14.385
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:30:14.386
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:30:14.393
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:30:14.398
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 10:31:06.000
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/Quartz_demo2/QuartzDemoApplicatio.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:12.082
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 788.2315000002272 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:12.083
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [a6eb0bd2-fba6-46b2-a0ea-c9ee3959fc5c] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:12.084
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:33:25.291
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:33:25.291
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:33:25.293
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:33:25.294
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:33:25.300
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:33:25.303
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:30.606
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 390.06520000007004 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:30.607
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [cf49eef1-1b0d-44a0-8ebc-2bb221bb6667] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:30.609
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:30.970
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 345.09849999984726 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:30.971
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [d5f5e3a4-8847-4fe8-8a7d-34776a637f10] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:33:30.971
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:24.374
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:24.375
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [012ea0f7-42e4-4f38-a631-c4f0e4a05106] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:24.376
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 353.96320000011474 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:25.889
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 341.56620000023395 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:25.891
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [c180fd19-045e-4079-ba1f-656ab8e50305] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:25.892
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:35:42.689
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:35:42.689
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:35:42.693
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:35:42.693
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:35:42.700
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:35:42.703
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:49.013
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 345.64019999979064 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:49.014
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [7362c5a6-a713-4a97-893f-11cb3a1f9c56] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:35:49.015
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:37.786
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 541.4893000000156 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:37.787
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [c2efe507-4422-43e5-b0ea-0d09037a7ee1] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:37.788
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:38.213
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 416.5759000000544 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:38.214
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:38.214
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [c6a48cef-89cc-4c9b-b040-cc0d0084dc44] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:39.926
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 315.62609999999404 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:39.927
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [cdb7951a-b9c5-4000-be68-cb8407d5b111] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:36:39.927
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:37:59.128
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:37:59.129
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:37:59.131
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:37:59.132
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:37:59.139
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:37:59.143
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:51.225
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 617.1657000002451 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:51.226
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:51.227
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [ce9d83d8-3a81-448e-8de4-1a0ba21a05a9] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:51.524
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 291.0190000003204 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:51.525
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [1caabcac-4eb9-4759-9ed0-63d6c2337d7e] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:51.526
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:52.625
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:52.626
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [9cb03934-56fe-40de-92b8-4e40d648184a] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:38:52.627
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 280.4810999999754 ms
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:42:46.259
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:42:46.261
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:42:46.264
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:42:46.266
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:42:46.273
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:42:46.277
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 10:43:31.956
+!MESSAGE [Info] Language ID not found for extension: xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:43:32.954
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:43:32.955
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [214ec324-cbfa-452a-9572-a5753eff96ac] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:43:32.956
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 316.68069999990985 ms
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:45:48.241
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:45:48.242
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:45:48.243
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:45:48.245
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:45:48.253
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:45:48.258
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:46:06.417
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 609.0504999998957 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:46:06.418
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:46:06.419
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [d2cb308a-f346-4274-9ccf-d6a876b7be31] model deployment ID: []
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:48:39.072
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:48:39.073
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:48:39.074
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:48:39.075
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:48:39.081
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:48:39.084
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-08 10:49:31.809
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:49:38.407
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 617.7864000000991 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:49:38.409
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [fa0c923b-d1bf-4714-aab4-ecf3658f5b98] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:49:38.410
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 10:49:52.852
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherJob.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:49:53.089
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [3424b6c5-0af8-4b61-96df-feeece183608] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:49:53.104
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:49:53.106
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 304.47830000007525 ms
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2025-05-08 10:49:53.110
+!MESSAGE [Error] org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Document for URI could not be found: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzjob/WeatherJob.java, URIs of the known document are: file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/Quartz_demo2/QuartzDemoApplicatio.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/resources/application.properties, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzconfig/QuartzConfig.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherService.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherJob.java
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Document for URI could not be found: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzjob/WeatherJob.java, URIs of the known document are: file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/Quartz_demo2/QuartzDemoApplicatio.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/resources/application.properties, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzconfig/QuartzConfig.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherService.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherJob.java
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at com.microsoft.copilot.eclipse.core.completion.CompletionProvider$CompletionJob.runCompletion(CompletionProvider.java:161)
+	at com.microsoft.copilot.eclipse.core.completion.CompletionProvider$CompletionJob.run(CompletionProvider.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Document for URI could not be found: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzjob/WeatherJob.java, URIs of the known document are: file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/Quartz_demo2/QuartzDemoApplicatio.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/resources/application.properties, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzconfig/QuartzConfig.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherService.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherJob.java
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:356)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2025-05-08 10:49:53.125
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Document for URI could not be found: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzjob/WeatherJob.java, URIs of the known document are: file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/Quartz_demo2/QuartzDemoApplicatio.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/resources/application.properties, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzconfig/QuartzConfig.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherService.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherJob.java
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Document for URI could not be found: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzjob/WeatherJob.java, URIs of the known document are: file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/Quartz_demo2/QuartzDemoApplicatio.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/resources/application.properties, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzconfig/QuartzConfig.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherService.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherJob.java
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at com.microsoft.copilot.eclipse.core.completion.CompletionProvider$CompletionJob.runCompletion(CompletionProvider.java:161)
+	at com.microsoft.copilot.eclipse.core.completion.CompletionProvider$CompletionJob.run(CompletionProvider.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Document for URI could not be found: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzjob/WeatherJob.java, URIs of the known document are: file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/Quartz_demo2/QuartzDemoApplicatio.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/resources/application.properties, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/quartzconfig/QuartzConfig.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherService.java, file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/weather/WeatherJob.java
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:356)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:50:07.319
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 298.58680000016466 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:50:07.321
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [b1061bf3-2190-4a9c-9b81-2913e91e7516] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:50:07.321
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:50:39.776
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:50:39.777
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:50:39.778
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:50:39.779
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:50:39.786
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:50:39.789
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:51:25.828
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:51:25.829
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [359c3da9-cc4c-4de7-86eb-2ff3aa9f9390] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:51:25.830
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 315.4810999999754 ms
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:51:26.472
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:51:26.473
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:51:26.474
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:51:26.475
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:51:26.481
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:51:26.484
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:52:55.243
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 322.2420999999158 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:52:55.245
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [b7176c0d-df63-4eb1-a7ad-3712877ee64c] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:52:55.246
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 10:56:20.460
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 10:56:20.470
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:21.162
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.290.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:21.346
+!MESSAGE [Info]	[certificates] Removed 7 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:43.217
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 830.8983000000007 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:43.218
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [0491c7fa-b458-4d37-a88a-334ea35a8a8a] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:43.218
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:47.940
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:47.941
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [77a84247-3dc2-4dde-acd1-a74bf4f8d0ca] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:47.941
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 784.077699999998 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:48.271
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:48.271
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [a6dc6ed7-c4b9-4dc0-b1d2-574799dee4d0] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:56:48.272
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 319.7481999999982 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:57:02.848
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:57:02.849
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 358.84389999999985 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:57:02.850
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [97e0088f-716b-4c28-915e-3c72e8275471] model deployment ID: []
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:57:03.003
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:57:03.004
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:57:03.005
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:57:03.005
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:57:03.011
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 10:57:03.014
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.core.resources 4 2 2025-05-08 10:57:43.555
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:100)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:486)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:423)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:285)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:116)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:240)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:221)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypesFor(BinaryTypeBinding.java:1927)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.methods(BinaryTypeBinding.java:1842)
+	at org.eclipse.jdt.internal.compiler.ast.Annotation.resolveType(Annotation.java:899)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveAnnotations(ASTNode.java:998)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveAnnotations(ASTNode.java:828)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.getAnnotationTagBits(SourceTypeBinding.java:1435)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.updateSupertypesWithAnnotations(TypeDeclaration.java:1936)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.integrateAnnotationsInHierarchy(CompilationUnitScope.java:443)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment$CompleteTypeBindingsSteps.perform(LookupEnvironment.java:195)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:565)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:925)
+	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:415)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:465)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:447)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:441)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:250)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:372)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:118)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:338)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:249)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-05-08 10:57:43.623
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2025-05-08 10:57:43.623
+!MESSAGE Errors running builder 'Java Builder' on project 'Quartz-demo2'.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:100)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:486)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:423)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:285)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:116)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:240)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:221)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypesFor(BinaryTypeBinding.java:1927)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.methods(BinaryTypeBinding.java:1842)
+	at org.eclipse.jdt.internal.compiler.ast.Annotation.resolveType(Annotation.java:899)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveAnnotations(ASTNode.java:998)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveAnnotations(ASTNode.java:828)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.getAnnotationTagBits(SourceTypeBinding.java:1435)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.updateSupertypesWithAnnotations(TypeDeclaration.java:1936)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.integrateAnnotationsInHierarchy(CompilationUnitScope.java:443)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment$CompleteTypeBindingsSteps.perform(LookupEnvironment.java:195)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:565)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:925)
+	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:415)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:465)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:447)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:441)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:250)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:372)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:118)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:338)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:249)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:57:48.894
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 349.9985999999917 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:57:48.894
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [36118691-a48e-4241-a207-05637844661f] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:57:48.895
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:25.161
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:25.162
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [92ec352d-fe4c-45f9-b4aa-e4bf3714bc9c] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:25.163
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 382.35329999998794 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:25.803
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:25.804
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 381.293399999995 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:25.805
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [27a75aa3-4de8-4807-92ae-45ce2c76dba1] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:26.194
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 381.76579999999376 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:26.195
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [ea52b224-1466-435e-ba57-85bad32aa868] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 10:58:26.196
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:06:23.963
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 613.1450000000186 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:06:23.964
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:06:23.966
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [19ce3f69-d9d4-40fd-9e6a-f918cf21d353] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:18.928
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 306.51229999994393 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:18.929
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:18.930
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [61f6df0a-92ca-4f09-9a43-dd2a00e40ad2] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:22.963
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 267.03370000002906 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:22.963
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [ae964aef-86e9-492d-9873-f65fdff65991] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:22.964
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:26.073
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:26.074
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [3f2fb22c-a2a3-4621-b409-3b81eb453b61] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:26.074
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 266.6034000000218 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:29.547
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 252.3850000000093 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:29.548
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [9f3abd56-175a-4899-b444-09af58a87bcb] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:29.548
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:08:52.125
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:08:52.126
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:08:52.128
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:08:52.129
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:08:52.137
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:08:52.140
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:08:59.936
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 500.3061999999918 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:09:00.070
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:09:00.071
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [06d40b96-f486-4923-8b34-ce41bd9bfcf7] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:09:01.187
+!MESSAGE [Info]	[Public Code References] Text found matching public code in file:///c%3A/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/pom.xml [Ln 83, Col 38] near .boot</groupId> 	        <artifactId>spring-boot-starter-logging</artifactId> 	    </dependency> 	    <dependency>     <groupId>com.fasterxml.jackson.core</groupId>     <artifactId>jackson-databind</artifactId> </dependency> 	</dependencies>  	<build> 		<plugins> 			<plugin> 				<groupId>org.springframework.boot</groupId> 				<artif...:
+  1) [NOASSERTION] https://github.com/waarp/WaarpMaven2/blob/4d47a6c78207a8eb121bc22f35be755e8c7ffd78/maven2/Waarp/WaarpFtp-Simpleimpl/3.6.2-jre11/WaarpFtp-Simpleimpl-3.6.2-jre11.pom
+  2) [GPL-3.0] https://github.com/jeroenpeeters/github-dependency-analyzer/blob/bf7b99c5429f55f7aa72d1fa1f1d9fb8797d5ba8/github-data/2013-01-01_2013-04-30/bazaarvoice_jolt.poms
+  3) [NOASSERTION] https://github.com/Autom-liu/project-generator/blob/5f432e154012ffcdb7a5e9f43ea88617620e2111/src/main/resources/template/commonpom.ftl
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:09:01.740
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 294.0150999999605 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:09:01.741
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [1ce3f047-cfa8-499e-ad1c-612bca304d71] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:09:01.741
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:10:42.650
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:10:42.651
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:10:42.652
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:10:42.653
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:10:42.659
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:10:42.662
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:12:57.660
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:12:57.661
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:12:57.662
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:12:57.663
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:12:57.670
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:12:57.673
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.core.resources 4 2 2025-05-08 11:13:56.304
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:100)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:486)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:423)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:285)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:116)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:240)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:221)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypesFor(BinaryTypeBinding.java:1927)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.methods(BinaryTypeBinding.java:1842)
+	at org.eclipse.jdt.internal.compiler.ast.Annotation.resolveType(Annotation.java:899)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveAnnotations(ASTNode.java:998)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveAnnotations(ASTNode.java:828)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.getAnnotationTagBits(SourceTypeBinding.java:1435)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.updateSupertypesWithAnnotations(TypeDeclaration.java:1936)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.integrateAnnotationsInHierarchy(CompilationUnitScope.java:443)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment$CompleteTypeBindingsSteps.perform(LookupEnvironment.java:195)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:565)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:925)
+	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:415)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:465)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:447)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:441)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:250)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:372)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:118)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:338)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:249)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-05-08 11:13:56.365
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2025-05-08 11:13:56.365
+!MESSAGE Errors running builder 'Java Builder' on project 'Quartz-demo2'.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:100)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:486)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:423)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:285)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:116)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:240)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:221)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypesFor(BinaryTypeBinding.java:1927)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.methods(BinaryTypeBinding.java:1842)
+	at org.eclipse.jdt.internal.compiler.ast.Annotation.resolveType(Annotation.java:899)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveAnnotations(ASTNode.java:998)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveAnnotations(ASTNode.java:828)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.getAnnotationTagBits(SourceTypeBinding.java:1435)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.updateSupertypesWithAnnotations(TypeDeclaration.java:1936)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.integrateAnnotationsInHierarchy(CompilationUnitScope.java:443)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment$CompleteTypeBindingsSteps.perform(LookupEnvironment.java:195)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:565)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:925)
+	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:415)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:465)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:447)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:441)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:250)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:372)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:118)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:338)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:249)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:14:01.821
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 662.6317999998573 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:14:01.823
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e51f0ba3-e664-45cb-a27c-7e431504d756] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:14:01.824
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:14:08.213
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 301.0529000000097 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:14:08.215
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [349c0b7f-5c9a-4f49-b401-e44cd421ff52] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:14:08.216
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:14:39.471
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:14:39.472
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:14:39.473
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:14:39.474
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:14:39.481
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:14:39.484
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:17:16.327
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:17:16.329
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:17:16.330
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:17:16.331
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:17:16.337
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:17:16.340
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:33.192
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 789.470200000098 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:33.193
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [4310580a-4967-482a-a93d-d04eb0f892f0] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:33.194
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:33.535
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 331.95039999997243 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:33.537
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [d2c11d92-d05b-40c9-8130-07c5f0abac59] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:33.538
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:34.695
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 363.17299999995157 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:34.695
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [f6bd173d-99ae-434b-b2db-35211d037692] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:19:34.697
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:20:04.607
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:20:04.607
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:20:04.608
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:20:04.608
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:20:04.615
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:20:04.618
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:09.483
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 388.1785000001546 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:09.485
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:09.485
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [9878381a-39e4-483c-a707-23362bf51aae] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:11.401
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 389.67809999990277 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:11.402
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [871d56de-5f93-4661-84d1-14236ef34c0a] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:11.403
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:14.049
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 350.01640000008047 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:14.050
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [18884d79-a7af-40e6-8851-f1a82b1ee514] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:14.051
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:32.584
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 367.6644999999553 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:32.585
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [77a1199e-9db7-4a4d-9f59-29d4ef708ad0] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:21:32.586
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:30.154
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [1797dbf4-418b-461a-b87b-0e59f7583cf6] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:30.154
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 667.3608999999706 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:30.155
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:30.635
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 339.63630000012927 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:30.636
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [408e55bd-bf9b-44f0-9cd4-9be9bc702b3a] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:30.637
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:37.510
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 363.8791000000201 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:37.512
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [fd8a4e03-7573-42e0-a4ad-10e50db2f5eb] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:27:37.512
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:27:53.783
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:27:53.785
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:27:53.785
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:27:53.785
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:27:53.792
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:27:53.796
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:10.314
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 315.82520000007935 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:10.315
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [bd94e881-0c86-4406-9709-17cb55e891d9] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:10.316
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:10.891
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:10.892
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [b9a09c72-3224-4521-b637-035e77a70b2c] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:10.893
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 394.2748000000138 ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-05-08 11:29:31.569
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/p10421497/Desktop/QuartzProject2/Quartz-demo2/src/main/java/Quartz_demo2/QuartzDemoApplication.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:50.093
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 357.5175000000745 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:50.096
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:50.097
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [c87a13cc-3fc0-4706-8ee9-0e5c3a68cd47] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:55.783
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 378.5138999999035 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:55.784
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [dfec9760-ca77-4108-8768-ba363c577cc4] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:55.784
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:56.123
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:56.123
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [eb01e5e3-a1a0-4cc5-a9f5-c5581f536234] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:56.124
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 325.7212999998592 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:56.589
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:56.590
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [71efba71-4493-4a80-8027-1594da2b8d0d] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:56.590
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 450.82620000001043 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:57.713
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 301.5881999998819 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:57.714
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [342901af-bad6-4b04-b8a2-4d9846eecd09] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:29:57.715
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:31:24.868
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:31:24.869
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [440b67fd-d0c1-4ad0-b0c1-8c60f14a1c89] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:31:24.870
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 368.1781999999657 ms
+
+!ENTRY Activator 4 0 2025-05-08 11:31:46.352
+!MESSAGE DebugException: Launch configuration Quartz-demo2 - QuartzDemoApplicatio at file:/C:/Users/p10421497/Desktop/QuartzProject2/.metadata/.plugins/org.eclipse.debug.core/.launches/Quartz-demo2%20-%20QuartzDemoApplicatio.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Quartz-demo2 - QuartzDemoApplicatio at file:/C:/Users/p10421497/Desktop/QuartzProject2/.metadata/.plugins/org.eclipse.debug.core/.launches/Quartz-demo2%20-%20QuartzDemoApplicatio.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:390)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchConfigurationDelegate.getEnableJmx(BootLaunchConfigurationDelegate.java:426)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:195)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-05-08 11:31:46.352
+!MESSAGE Launch configuration Quartz-demo2 - QuartzDemoApplicatio at file:/C:/Users/p10421497/Desktop/QuartzProject2/.metadata/.plugins/org.eclipse.debug.core/.launches/Quartz-demo2%20-%20QuartzDemoApplicatio.launch does not exist.
+
+!ENTRY Activator 4 0 2025-05-08 11:31:46.353
+!MESSAGE DebugException: Launch configuration Quartz-demo2 - QuartzDemoApplicatio at file:/C:/Users/p10421497/Desktop/QuartzProject2/.metadata/.plugins/org.eclipse.debug.core/.launches/Quartz-demo2%20-%20QuartzDemoApplicatio.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Quartz-demo2 - QuartzDemoApplicatio at file:/C:/Users/p10421497/Desktop/QuartzProject2/.metadata/.plugins/org.eclipse.debug.core/.launches/Quartz-demo2%20-%20QuartzDemoApplicatio.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:777)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1251)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:464)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:415)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:322)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:307)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:196)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.processTerminated(RunStateTracker.java:267)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1287)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1321)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2025-05-08 11:31:46.353
+!MESSAGE Launch configuration Quartz-demo2 - QuartzDemoApplicatio at file:/C:/Users/p10421497/Desktop/QuartzProject2/.metadata/.plugins/org.eclipse.debug.core/.launches/Quartz-demo2%20-%20QuartzDemoApplicatio.launch does not exist.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:34:35.675
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 671.7138000000268 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:34:35.676
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e793543d-313d-4886-bc52-9b3dccce94d0] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:34:35.677
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:09.603
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:09.604
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [4e780454-a42d-4309-b3e4-8ecbeccb93c4] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:09.605
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 343.966599999927 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.063
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.065
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [d1e0fa73-c7de-4144-ba2d-3b9bb25a27e9] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.066
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 414.61830000020564 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.555
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.556
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [16397fde-cf6c-45e1-8e24-4a96e1c235cb] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.556
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 291.06359999999404 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.931
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 308.9873000001535 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.933
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [20747119-f7e2-45de-a9a6-7e5566483775] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:10.933
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:11.232
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 290.0357000003569 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:11.233
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [378dc545-a119-4e48-87a8-ef0b9e2e1508] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:11.234
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:11.558
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 314.8104000003077 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:11.558
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e00f9134-8eae-4c8a-a16d-974d5e19fb24] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:11.559
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:12.626
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:12.627
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e96680bf-7885-4111-b865-3533b0576c11] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:12.627
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 322.04790000012144 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:13.619
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 269.7097000000067 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:13.619
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [1abe046b-08fa-49f8-bffa-27a5a704bf2f] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:13.620
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:17.399
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:17.400
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 824.3018999998458 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:17.402
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [d1d45949-4cfe-4aa7-8f33-f206b36606b8] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:17.911
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 376.5826000003144 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:17.913
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [db855ee6-6dc5-4e09-ac05-1608fe785d31] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:17.914
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:27.637
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:27.638
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [2ef7f645-c94e-42d2-8088-f4fac24f6d93] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:35:27.638
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 319.70039999997243 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:36:04.503
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 293.44920000014827 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:36:04.504
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [18c45829-4842-486c-8f9b-873a6c7dd85a] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:36:04.505
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:36:36.716
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:36:36.717
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 419.0361999999732 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:36:36.718
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [a0dec5e9-c666-4bfb-a0ba-1dcf2ef04ac8] model deployment ID: []
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:37:05.052
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:37:05.053
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:37:05.054
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:37:05.055
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:37:05.060
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-05-08 11:37:05.063
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:37:07.372
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 343.35399999981746 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:37:07.373
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-08 11:37:07.374
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [37ac1339-c198-4a7f-8b2c-081de526a6f8] model deployment ID: []
