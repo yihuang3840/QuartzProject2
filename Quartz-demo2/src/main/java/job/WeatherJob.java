@@ -54,7 +54,7 @@ public class WeatherJob implements Job {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm"); // 格式化時間用
 
         StringBuilder messageBuilder = new StringBuilder(); // Teams 訊息累積器
-        messageBuilder.append("🌤 **三縣市天氣更新**\n\n");
+        messageBuilder.append("🌤 **各縣市天氣更新**\n\n");
 
         // 針對每個城市做 API 呼叫、資料儲存與訊息拼接
         for (City city : cities) {
