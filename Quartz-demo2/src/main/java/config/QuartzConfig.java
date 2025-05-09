@@ -32,7 +32,7 @@ public class QuartzConfig {
                 .forJob(jobDetail()) // 指定這個觸發器對應的 Job
                 .withIdentity("weatherTrigger") // 為觸發器命名
                 .withSchedule(
-                    CronScheduleBuilder.cronSchedule("0 0 14 * * ?")
+                    CronScheduleBuilder.cronSchedule("0 0 12 * * ?")
                     // 每天 11:00 AM 執行（Quartz Cron 格式）
                     // 說明：秒 分 時 日 月 星期（? 表示不指定）
                 )
